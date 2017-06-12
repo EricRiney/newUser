@@ -3,10 +3,11 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/golang/example/stringutil"
+	"time"
+	"github.com/newUser/stringutil"
 )
 
 func main() {
-	fmt.Println(stringutil.Reverse("!test oG ,olleH"))
+	fmt.Println("The time is", time.Now())
+	fmt.Println(stringutil.Reverse("!tes   t oG ,olleH"))
 }
